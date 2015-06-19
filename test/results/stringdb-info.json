@@ -1,0 +1,1200 @@
+[
+    {
+        "id": "EHD2_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "EDM2_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "Y74B2_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "TR130_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "SUV3L_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "SSL1_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "SAD2_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "SAD2H_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "LSM4_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "INVD_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "INVC_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "IMPA9_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    }
+][
+    {
+        "id": "MYOB6_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "MYOB4_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "MYOB1_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "MIRO2_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "LCV3_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "COV1_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "DG783_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "DEX1_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "APS2L_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "EML2_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "VAD1_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "EML3_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    }
+][
+    {
+        "id": "IMPA2_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "IDD13_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "AREP1_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "ACR2_ARATH",
+        "graph": {
+            "nodes": [
+                {
+                    "id": "Bra011073",
+                    "name": "Bra011073"
+                },
+                {
+                    "id": "Bra005765",
+                    "name": "Bra005765"
+                },
+                {
+                    "id": "Bra003055",
+                    "name": "Bra003055"
+                },
+                {
+                    "id": "Bra004340",
+                    "name": "Bra004340"
+                },
+                {
+                    "id": "Bra005663",
+                    "name": "Bra005663"
+                },
+                {
+                    "id": "Bra029917",
+                    "name": "Bra029917"
+                },
+                {
+                    "id": "Bra018036",
+                    "name": "Bra018036"
+                },
+                {
+                    "id": "Bra040919",
+                    "name": "Bra040919"
+                },
+                {
+                    "id": "Bra015735",
+                    "name": "Bra015735"
+                },
+                {
+                    "id": "Bra012258",
+                    "name": "Bra012258"
+                },
+                {
+                    "id": "Bra014835",
+                    "name": "Bra014835"
+                }
+            ],
+            "edges": [
+                {
+                    "source": "Bra011073",
+                    "target": "Bra005765"
+                },
+                {
+                    "source": "Bra005765",
+                    "target": "Bra003055"
+                },
+                {
+                    "source": "Bra005765",
+                    "target": "Bra004340"
+                },
+                {
+                    "source": "Bra005765",
+                    "target": "Bra005663"
+                },
+                {
+                    "source": "Bra029917",
+                    "target": "Bra005765"
+                },
+                {
+                    "source": "Bra018036",
+                    "target": "Bra005765"
+                },
+                {
+                    "source": "Bra040919",
+                    "target": "Bra005765"
+                },
+                {
+                    "source": "Bra015735",
+                    "target": "Bra005765"
+                },
+                {
+                    "source": "Bra012258",
+                    "target": "Bra005765"
+                },
+                {
+                    "source": "Bra014835",
+                    "target": "Bra005765"
+                },
+                {
+                    "source": "Bra018036",
+                    "target": "Bra015735"
+                },
+                {
+                    "source": "Bra029917",
+                    "target": "Bra012258"
+                },
+                {
+                    "source": "Bra029917",
+                    "target": "Bra015735"
+                },
+                {
+                    "source": "Bra018036",
+                    "target": "Bra012258"
+                },
+                {
+                    "source": "Bra018036",
+                    "target": "Bra011073"
+                },
+                {
+                    "source": "Bra012258",
+                    "target": "Bra011073"
+                },
+                {
+                    "source": "Bra015735",
+                    "target": "Bra011073"
+                },
+                {
+                    "source": "Bra029917",
+                    "target": "Bra011073"
+                },
+                {
+                    "source": "Bra014835",
+                    "target": "Bra011073"
+                },
+                {
+                    "source": "Bra029917",
+                    "target": "Bra014835"
+                },
+                {
+                    "source": "Bra018036",
+                    "target": "Bra014835"
+                }
+            ]
+        }
+    },
+    {
+        "id": "WR52C_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "RPS4W_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "WR52N_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "RPS6C_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "TMN12_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "TMN8_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "WR52R_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "RPS6R_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    }
+][
+    {
+        "id": "SAU67_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "SAU63_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "NAC26_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "CB60G_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "CB60F_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "CB60E_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "CB60C_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "CB60A_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "ANTL1_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "UPS3_ARATH",
+        "graph": {
+            "nodes": [
+                {
+                    "id": "NCS1",
+                    "name": "NCS1"
+                },
+                {
+                    "id": "UPS3",
+                    "name": "UPS3"
+                }
+            ],
+            "edges": [
+                {
+                    "source": "NCS1",
+                    "target": "UPS3"
+                }
+            ]
+        }
+    },
+    {
+        "id": "Y1332_ARATH",
+        "graph": {
+            "nodes": [
+                {
+                    "id": "AT5G26010",
+                    "name": "AT5G26010"
+                },
+                {
+                    "id": "AT1G33260",
+                    "name": "AT1G33260"
+                },
+                {
+                    "id": "AT5G27930",
+                    "name": "AT5G27930"
+                },
+                {
+                    "id": "PP2C74",
+                    "name": "PP2C74"
+                },
+                {
+                    "id": "AHG1",
+                    "name": "AHG1"
+                },
+                {
+                    "id": "AT5G53140",
+                    "name": "AT5G53140"
+                },
+                {
+                    "id": "AT5G57820",
+                    "name": "AT5G57820"
+                },
+                {
+                    "id": "AT5G66720",
+                    "name": "AT5G66720"
+                },
+                {
+                    "id": "ABI2",
+                    "name": "ABI2"
+                },
+                {
+                    "id": "AT5G66080",
+                    "name": "AT5G66080"
+                },
+                {
+                    "id": "HAI1",
+                    "name": "HAI1"
+                }
+            ],
+            "edges": [
+                {
+                    "source": "AT5G26010",
+                    "target": "AT1G33260"
+                },
+                {
+                    "source": "AT5G27930",
+                    "target": "AT1G33260"
+                },
+                {
+                    "source": "PP2C74",
+                    "target": "AT1G33260"
+                },
+                {
+                    "source": "AHG1",
+                    "target": "AT1G33260"
+                },
+                {
+                    "source": "AT5G53140",
+                    "target": "AT1G33260"
+                },
+                {
+                    "source": "AT5G57820",
+                    "target": "AT1G33260"
+                },
+                {
+                    "source": "AT5G66720",
+                    "target": "AT1G33260"
+                },
+                {
+                    "source": "ABI2",
+                    "target": "AT1G33260"
+                },
+                {
+                    "source": "AT5G66080",
+                    "target": "AT1G33260"
+                },
+                {
+                    "source": "HAI1",
+                    "target": "AT1G33260"
+                },
+                {
+                    "source": "AT5G66720",
+                    "target": "AT5G57820"
+                },
+                {
+                    "source": "AT5G66720",
+                    "target": "AT5G66080"
+                },
+                {
+                    "source": "HAI1",
+                    "target": "ABI2"
+                },
+                {
+                    "source": "AT5G66720",
+                    "target": "AHG1"
+                },
+                {
+                    "source": "AT5G66720",
+                    "target": "ABI2"
+                },
+                {
+                    "source": "AT5G57820",
+                    "target": "ABI2"
+                },
+                {
+                    "source": "HAI1",
+                    "target": "AT5G57820"
+                },
+                {
+                    "source": "AT5G57820",
+                    "target": "AHG1"
+                },
+                {
+                    "source": "AT5G57820",
+                    "target": "AT5G26010"
+                },
+                {
+                    "source": "AT5G57820",
+                    "target": "AT5G27930"
+                },
+                {
+                    "source": "AT5G57820",
+                    "target": "PP2C74"
+                },
+                {
+                    "source": "AT5G57820",
+                    "target": "AT5G53140"
+                },
+                {
+                    "source": "AT5G66720",
+                    "target": "AT5G27930"
+                },
+                {
+                    "source": "AT5G66720",
+                    "target": "HAI1"
+                },
+                {
+                    "source": "AT5G66720",
+                    "target": "PP2C74"
+                },
+                {
+                    "source": "AT5G66720",
+                    "target": "AT5G26010"
+                },
+                {
+                    "source": "AT5G66720",
+                    "target": "AT5G53140"
+                }
+            ]
+        }
+    },
+    {
+        "id": "VIP6_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "SEOC_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    }
+][
+    {
+        "id": "SKI3_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "SKI2_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "ENAS1_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "PS1_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "PAF1_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "LAZ1_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "JASON_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "EAF1B_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "EAF1A_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "CSK_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "CRWN1_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "BARD1_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "ATXR7_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    }
+][
+    {
+        "id": "APE2_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "CRWN4_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "TENAC_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "PUX15_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "PUX16_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "PUX14_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "QKY_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "PUX8_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "PUX6_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "NTL9_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "NAC16_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "NAC14_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "NAC13_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    }
+][
+    {
+        "id": "NAC10_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "MOB2B_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "MOB2A_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "IDM1_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "ZIP4L_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "TRNH1_ARATH",
+        "graph": {
+            "nodes": [
+                {
+                    "id": "KAT5",
+                    "name": "KAT5"
+                },
+                {
+                    "id": "AIM1",
+                    "name": "AIM1"
+                },
+                {
+                    "id": "MFP2",
+                    "name": "MFP2"
+                },
+                {
+                    "id": "PKT4",
+                    "name": "PKT4"
+                },
+                {
+                    "id": "PKT3",
+                    "name": "PKT3"
+                },
+                {
+                    "id": "FAB1",
+                    "name": "FAB1"
+                },
+                {
+                    "id": "AT1G07440",
+                    "name": "AT1G07440"
+                },
+                {
+                    "id": "KASI",
+                    "name": "KASI"
+                },
+                {
+                    "id": "AT2G29310",
+                    "name": "AT2G29310"
+                },
+                {
+                    "id": "AT2G04540",
+                    "name": "AT2G04540"
+                },
+                {
+                    "id": "GR",
+                    "name": "GR"
+                }
+            ],
+            "edges": [
+                {
+                    "source": "KAT5",
+                    "target": "AIM1"
+                },
+                {
+                    "source": "KAT5",
+                    "target": "MFP2"
+                },
+                {
+                    "source": "MFP2",
+                    "target": "PKT4"
+                },
+                {
+                    "source": "AIM1",
+                    "target": "PKT4"
+                },
+                {
+                    "source": "AIM1",
+                    "target": "PKT3"
+                },
+                {
+                    "source": "MFP2",
+                    "target": "PKT3"
+                },
+                {
+                    "source": "AIM1",
+                    "target": "MFP2"
+                },
+                {
+                    "source": "FAB1",
+                    "target": "AT1G07440"
+                },
+                {
+                    "source": "KASI",
+                    "target": "AT2G29310"
+                },
+                {
+                    "source": "AT2G29310",
+                    "target": "AT2G04540"
+                },
+                {
+                    "source": "AT2G29310",
+                    "target": "FAB1"
+                },
+                {
+                    "source": "AT2G04540",
+                    "target": "AT1G07440"
+                },
+                {
+                    "source": "KASI",
+                    "target": "AT1G07440"
+                },
+                {
+                    "source": "AIM1",
+                    "target": "AT2G29310"
+                },
+                {
+                    "source": "AIM1",
+                    "target": "AT1G07440"
+                },
+                {
+                    "source": "MFP2",
+                    "target": "AT1G07440"
+                },
+                {
+                    "source": "MFP2",
+                    "target": "AT2G29310"
+                },
+                {
+                    "source": "AT1G07440",
+                    "target": "PKT4"
+                },
+                {
+                    "source": "PKT3",
+                    "target": "AT1G07440"
+                },
+                {
+                    "source": "KAT5",
+                    "target": "AT1G07440"
+                },
+                {
+                    "source": "AT2G29310",
+                    "target": "PKT4"
+                },
+                {
+                    "source": "KAT5",
+                    "target": "AT2G29310"
+                },
+                {
+                    "source": "PKT3",
+                    "target": "AT2G29310"
+                },
+                {
+                    "source": "AT2G29310",
+                    "target": "AT1G07440"
+                },
+                {
+                    "source": "GR",
+                    "target": "AT1G07440"
+                },
+                {
+                    "source": "GR",
+                    "target": "AT2G29310"
+                },
+                {
+                    "source": "MFP2",
+                    "target": "AT2G04540"
+                },
+                {
+                    "source": "MFP2",
+                    "target": "FAB1"
+                },
+                {
+                    "source": "AIM1",
+                    "target": "AT2G04540"
+                },
+                {
+                    "source": "AIM1",
+                    "target": "FAB1"
+                },
+                {
+                    "source": "KASI",
+                    "target": "AIM1"
+                },
+                {
+                    "source": "KASI",
+                    "target": "MFP2"
+                },
+                {
+                    "source": "AIM1",
+                    "target": "GR"
+                },
+                {
+                    "source": "GR",
+                    "target": "MFP2"
+                },
+                {
+                    "source": "KASI",
+                    "target": "FAB1"
+                }
+            ]
+        }
+    },
+    {
+        "id": "TDL1_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "XPO1B_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "TRNHB_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "S2P_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "SBT24_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "AHL14_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "SDH32_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    }
+][
+    {
+        "id": "SDH31_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "SCAB2_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "PRT6_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "PAE9_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "PAE2_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "PAE1_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "NFD4_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "NET4A_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "NET2D_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "NET2B_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "NET2A_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "NET1D_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    },
+    {
+        "id": "NET1B_ARATH",
+        "graph": {
+            "nodes": [],
+            "edges": []
+        }
+    }
+]

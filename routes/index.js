@@ -21,9 +21,8 @@ router.post('/', function(req, res, next) {
     var exec = require("child_process").exec;
     var fs = require("fs");
     var parseNewick = require("tnt.newick").parse_newick;
-
     var child;
-    var blastcmd = "tools/ncbi-blast-2.2.31+/bin/legacy_blast.pl blastall -i tmp/blastin.fasta -p blastp -m 7 -d tools/ncbi-blast-2.2.31+/db/tair/tair --path /usr/local/ncbi/blast/bin";
+    var blastcmd = "tools/ncbi-blast-2.2.31+/bin/legacy_blast.pl blastall -i tmp/blastin.fasta -p blastp -m 7 -d data/db/tair/tair --path /usr/local/ncbi/blast/bin";
     fs.writeFile("tmp/blastin.fasta", vap.query, function(err){
         child = exec(blastcmd, function (error, stdout, stderr) {
             var blastresult = stdout;
@@ -49,15 +48,16 @@ router.post('/', function(req, res, next) {
                             var vaporObj = {
                                 phylotree: parseNewick(t.shortTreeIDs(newick)),
                                 msa: cParser.parse(clustal.replace(/[\:\.\*]/g, ""))
-                            }
+                            };
                             geneIds = t.idsFromFasta(fasta);
-                            t.getSTRINGNetworks(geneIds, "", function(nets){
+                            console.log("hi");
+                            stringdb(geneIds, t, function(nets){
+                                console.log("hi2");
                                 vaporObj.interactions = nets;
                                 geneIds = geneIds.concat(t.extractNetworkIDs(nets));
                                 geneIds = _.uniq(geneIds);
-                                //get Swissport data
-                                t.getGeneInfo(geneIds, "", function(swissprot){
-                                    vaporObj.anno = swissprot;
+                                swissprot(geneIds, fs, function(sp){
+                                    vaporObj.anno = sp;
                                     res.send(vaporObj);
                                 });
                             });
@@ -73,5 +73,46 @@ router.post('/', function(req, res, next) {
 router.get('/', function(req, res, next) {
     res.send("yo!");
 });
+
+//helper functions
+//probably do not belong here and should be moved at a later stage
+
+function swissprot(geneIds, fs, success){
+    var _ = require("underscore");
+    fs.readFile("data/uniprot-info.json", "utf-8", function(err, data){
+        var anno = JSON.parse(data);
+        var result = [];
+        var match = null;
+        for(var i=0; i<geneIds.length; i++){
+            match = _.where(anno, {query: geneIds[i]})[0];
+            result.push(match);
+        }
+        success(result);
+    });
+}
+
+function stringdb(geneIds, t, success){
+    var threads = 10;
+    var container = splitParts(geneIds, threads);
+    var result = []; 
+    //get stringdb data
+    for(var i=0; i<container.length; i++){
+        t.getSTRINGNetworks(geneIds, "", function(nets){
+            result = result.concat(nets);
+            if(result.length === geneIds.length){
+                success(result);
+            }
+        });
+    }
+}
+
+function splitParts(a, n) {
+    var len = a.length,out = [], i = 0;
+    while (i < len) {
+        var size = Math.ceil((len - i) / n--);
+        out.push(a.slice(i, i += size));
+    }
+    return out;
+}
 
 module.exports = router;
