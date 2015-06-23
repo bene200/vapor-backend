@@ -50,9 +50,7 @@ router.post('/', function(req, res, next) {
                                 msa: cParser.parse(clustal.replace(/[\:\.\*]/g, ""))
                             };
                             geneIds = t.idsFromFasta(fasta);
-                            console.log("hi");
-                            stringdb(geneIds, t, function(nets){
-                                console.log("hi2");
+                            stringdb(geneIds, fs, function(nets){
                                 vaporObj.interactions = nets;
                                 geneIds = geneIds.concat(t.extractNetworkIDs(nets));
                                 geneIds = _.uniq(geneIds);
@@ -85,25 +83,36 @@ function swissprot(geneIds, fs, success){
         var match = null;
         for(var i=0; i<geneIds.length; i++){
             match = _.where(anno, {query: geneIds[i]})[0];
+            if(!match){
+                match = _.where(anno, {locusname: geneIds[i]})[0];
+            }
             result.push(match);
         }
         success(result);
     });
 }
 
-function stringdb(geneIds, t, success){
-    var threads = 10;
-    var container = splitParts(geneIds, threads);
-    var result = []; 
-    //get stringdb data
-    for(var i=0; i<container.length; i++){
-        t.getSTRINGNetworks(geneIds, "", function(nets){
-            result = result.concat(nets);
-            if(result.length === geneIds.length){
-                success(result);
+function stringdb(geneIds, fs, success){
+    var _ = require("underscore");
+    fs.readFile("data/stringdb-info.json", "utf-8", function(err, data){
+        var anno = JSON.parse(data);
+        var result = [];
+        var match = null;
+        for(var i=0; i<geneIds.length; i++){
+            match = _.where(anno, {id: geneIds[i]})[0];
+            if(!match){
+                match = {
+                    id: geneIds[i],
+                    graph: {
+                        nodes: [],
+                        edges: []
+                    }
+                };
             }
-        });
-    }
+            result.push(match);
+        }
+        success(result);
+    });
 }
 
 function splitParts(a, n) {

@@ -14,6 +14,7 @@ var cors = require("cors");
 var app = express();
 app.use(cors({ 
   origin: "http://10.0.63.98",
+  // origin: "http://localhost:8000",
   credentials: true
 }));
 
