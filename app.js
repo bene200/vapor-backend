@@ -14,7 +14,7 @@ var cors = require("cors");
 var app = express();
 app.use(cors({ 
   // origin: "http://10.0.63.98",
-  origin: "http://localhost:9000",
+  origin: "http://vapor.biojs.tgac.ac.uk:8080",
   credentials: true
 }));
 
